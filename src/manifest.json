@@ -1,0 +1,9 @@
+{
+  "name": "edlee.me",
+  "short_name": "edlee.me",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "description": "",
+  "icons": []
+}
