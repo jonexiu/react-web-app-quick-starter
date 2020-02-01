@@ -1,5 +1,5 @@
 /* eslint-disable max-len */
-import { OSS_URL, SITE_TITLE, SITE_DESC } from './helpers/constants'
+import { SITE_TITLE, SITE_DESC, ICON_PATH } from './helpers/constants'
 
 export const meta = [
   {
@@ -48,7 +48,7 @@ export const link = [
   {
     rel: 'shortcut icon',
     type: 'image/png',
-    href: `${OSS_URL}/images/share-icon.png`,
+    href: `${ICON_PATH}/favicon-32x32.png`,
     size: '32x32'
   },
   // {
@@ -58,22 +58,22 @@ export const link = [
   {
     rel: 'apple-touch-icon',
     sizes: '57x57',
-    href: `${OSS_URL}/images/share-icon.png`
+    href: `${ICON_PATH}/apple-icon-57x57.png`
   },
   {
     rel: 'apple-touch-icon',
     sizes: '72x72',
-    href: `${OSS_URL}/images/share-icon.png`
+    href: `${ICON_PATH}/apple-icon-72x72.png`
   },
   {
     rel: 'apple-touch-icon',
     sizes: '114x114',
-    href: `${OSS_URL}/images/share-icon.png`
+    href: `${ICON_PATH}/apple-icon-114x114.png`
   },
   {
     rel: 'apple-touch-icon',
     sizes: '144x144',
-    href: `${OSS_URL}/images/share-icon.png`
+    href: `${ICON_PATH}/apple-icon-144x144.png`
   }
 ]
 

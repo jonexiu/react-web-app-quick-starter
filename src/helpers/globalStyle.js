@@ -12,7 +12,6 @@ const GlobalStyle = () => (
         -moz-osx-font-smoothing: grayscale;
         box-sizing: border-box;
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-        user-select: none;
       }
       html,
       body {
@@ -21,7 +20,6 @@ const GlobalStyle = () => (
         padding: 0;
         background: #fff;
         width: 100vw;
-        overflow: hidden;
       }
       a,
       a:visited {

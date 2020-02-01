@@ -3,6 +3,7 @@ const OSS_BUCKET = 'bucketName'
 export const OSS_URL = `//${OSS_BUCKET}.oss-cn-shenzhen.aliyuncs.com`
 export const IMAGE_PATH = `${OSS_URL}/images`
 export const FONT_PATH = `${OSS_URL}/fonts`
+export const ICON_PATH = `${OSS_URL}/icons`
 export const WX_SIGN_URL = 'https://www.bitmob.cc/api/wx'
 
 export const FONTS = {

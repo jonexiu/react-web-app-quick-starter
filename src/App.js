@@ -1,6 +1,6 @@
 /* eslint-disable: max-len */
 import { hot } from 'react-hot-loader/root'
-import React, { useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 
 /* pages */
 
@@ -13,12 +13,16 @@ import { initApp } from './helpers/utils'
 import Context from './helpers/context'
 
 const App = () => {
+  const { innerWidth: winW, innerHeight: winH } = window
+  const [sizes, setSizes] = useState({ winW, winH })
+
   useEffect(() => {
-    initApp()
+    initApp(setSizes)
   }, [])
+
   return (
-    <Context.Provider value={{}}>
-      <div />
+    <Context.Provider value={{ sizes }}>
+      <div>Hello</div>
     </Context.Provider>
   )
 }

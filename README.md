@@ -12,7 +12,7 @@
 
 ## Dependencies
 ### Styling
-- Emotion (styled components)
+- [Emotion (styled components)](https://emotion.sh/docs/introduction)
 
 ### Networking
 - Axios

@@ -1,14 +1,14 @@
 {
-  "name": "103game",
+  "name": "react-web-app-quick-starter",
   "version": "1.0.0",
-  "description": "103game",
+  "description": "React Web App Quick Starter",
   "main": "index.js",
   "author": "Ed Lee <jonexiu@gmail.com>",
   "license": "MIT",
   "scripts": {
     "dev": "webpack-dev-server --hot --config config/webpack.config.js",
     "build": "rm -rf './build' && NODE_ENV=production webpack --config config/webpack.config.production.js",
-    "deploy": "scp -r /Users/edlee/Documents/Projects/103game/dev/103game-web-app/build/* root@39.108.221.193:/home/bitmob/www/103store.cn/games/orange/"
+    "deploy": "scp -r ..."
   },
   "dependencies": {
     "@emotion/core": "^10.0.27",
